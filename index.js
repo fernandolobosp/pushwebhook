@@ -9,7 +9,7 @@ http.createServer(function(request, response) {
    
    // Manda o corpo da resposta "Olá Mundo"
    response.end('Olá Mundo\n');
-}).listen(80);
+}).listen(443);
 
 // Imprime no console a URL de acesso ao servidor
-console.log('Servidor executando em http://127.0.0.1:80/');
+console.log('Servidor executando em http://127.0.0.1:443/');
